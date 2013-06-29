@@ -54,6 +54,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-twitter'
 gem 'omniauth-linkedin'
+gem "nifty-generators", :group => :development
 
 # Build JSON APIs with ease. Reaad more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -74,3 +75,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem "mocha", group: :test
